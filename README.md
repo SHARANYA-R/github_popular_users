@@ -5,7 +5,7 @@ To get the most popular users from the GitHub API using Python
 chmod +x setup.sh
 ./setup.sh
 
-### Run client module to capture the flag in new shell
+### Run views module to start the flask application
 source env/bin/activate
 python views.py
 
