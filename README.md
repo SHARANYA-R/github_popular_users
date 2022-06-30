@@ -4,8 +4,10 @@ To get the most popular users from the GitHub API using Python
 ### Setup and Bring server up
 chmod +x setup.sh
 ./setup.sh
+## This should start running the application
 
-### Run views module to start the flask application
+### Run views module to start the flask application if the requirements are already installed
+## Also for subsequent runs
 source env/bin/activate
 python views.py
 
